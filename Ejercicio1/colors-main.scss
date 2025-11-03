@@ -1,0 +1,126 @@
+@use 'colors' as *;
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin: 2rem 0 1rem;
+}
+
+.grid-container {
+    display: grid;
+    gap: 12px;
+    padding: 20px;
+    background: white;
+    border-radius: 18px;
+    margin: 20px auto;
+    max-width: 1400px;
+    grid-template-columns: repeat(9, 1fr); // 9 columnas para 9 tonos
+}
+
+// Clase base para cada caja de color
+.box {
+    min-height: 80px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.box span {
+    background: rgba(255, 255, 255, 0.85);
+    padding: 4px 8px;
+    border-radius: 8px;
+    font-size: 9px;
+    backdrop-filter: blur(2px);
+    font-weight: 600;
+    color: #333;
+    pointer-events: none;
+}
+
+// === PALETA AMARILLA ===
+.yellow-base {
+    background-color: $base-yellow;
+}
+.yellow-lighten-1 {
+    background-color: $yellow-lighten-1;
+}
+.yellow-lighten-2 {
+    background-color: $yellow-lighten-2;
+}
+.yellow-lighten-3 {
+    background-color: $yellow-lighten-3;
+}
+.yellow-lighten-4 {
+    background-color: $yellow-lighten-4;
+}
+.yellow-darken-1 {
+    background-color: $yellow-darken-1;
+}
+.yellow-darken-2 {
+    background-color: $yellow-darken-2;
+}
+.yellow-darken-3 {
+    background-color: $yellow-darken-3;
+}
+.yellow-darken-4 {
+    background-color: $yellow-darken-4;
+}
+
+// === PALETA ROSA ===
+.pink-base {
+    background-color: $base-pink;
+}
+.pink-lighten-1 {
+    background-color: $pink-lighten-1;
+}
+.pink-lighten-2 {
+    background-color: $pink-lighten-2;
+}
+.pink-lighten-3 {
+    background-color: $pink-lighten-3;
+}
+.pink-lighten-4 {
+    background-color: $pink-lighten-4;
+}
+.pink-darken-1 {
+    background-color: $pink-darken-1;
+}
+.pink-darken-2 {
+    background-color: $pink-darken-2;
+}
+.pink-darken-3 {
+    background-color: $pink-darken-3;
+}
+.pink-darken-4 {
+    background-color: $pink-darken-4;
+}
+
+// === PALETA TURQUESA ===
+.blue-base {
+    background-color: $base-blue;
+}
+.blue-lighten-1 {
+    background-color: $blue-lighten-1;
+}
+.blue-lighten-2 {
+    background-color: $blue-lighten-2;
+}
+.blue-lighten-3 {
+    background-color: $blue-lighten-3;
+}
+.blue-lighten-4 {
+    background-color: $blue-lighten-4;
+}
+.blue-darken-1 {
+    background-color: $blue-darken-1;
+}
+.blue-darken-2 {
+    background-color: $blue-darken-2;
+}
+.blue-darken-3 {
+    background-color: $blue-darken-3;
+}
+.blue-darken-4 {
+    background-color: $blue-darken-4;
+}

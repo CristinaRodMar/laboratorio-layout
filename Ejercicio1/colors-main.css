@@ -1,0 +1,146 @@
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin: 2rem 0 1rem;
+}
+
+.grid-container {
+  display: grid;
+  gap: 12px;
+  padding: 20px;
+  background: white;
+  border-radius: 18px;
+  margin: 20px auto;
+  max-width: 1400px;
+  grid-template-columns: repeat(9, 1fr);
+}
+
+.box {
+  min-height: 80px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.box span {
+  background: rgba(255, 255, 255, 0.85);
+  padding: 4px 8px;
+  border-radius: 8px;
+  font-size: 9px;
+  backdrop-filter: blur(2px);
+  font-weight: 600;
+  color: #333;
+  pointer-events: none;
+}
+
+.yellow-base {
+  background-color: #f9e14b;
+}
+
+.yellow-lighten-1 {
+  background-color: rgb(250.6451612903, 233.2258064516, 124.3548387097);
+}
+
+.yellow-lighten-2 {
+  background-color: rgb(252.2903225806, 241.4516129032, 173.7096774194);
+}
+
+.yellow-lighten-3 {
+  background-color: rgb(253.935483871, 249.6774193548, 223.064516129);
+}
+
+.yellow-lighten-4 {
+  background-color: hsl(51.724137931, 93.5483870968%, 103.5294117647%);
+}
+
+.yellow-darken-1 {
+  background-color: rgb(247.3548387097, 216.7741935484, 25.6451612903);
+}
+
+.yellow-darken-2 {
+  background-color: rgb(214.8387096774, 186.1935483871, 7.1612903226);
+}
+
+.yellow-darken-3 {
+  background-color: rgb(165.4838709677, 143.4193548387, 5.5161290323);
+}
+
+.yellow-darken-4 {
+  background-color: rgb(116.1290322581, 100.6451612903, 3.8709677419);
+}
+
+.pink-base {
+  background-color: #ef7689;
+}
+
+.pink-lighten-1 {
+  background-color: rgb(244.3333333333, 163.6666666667, 176.3333333333);
+}
+
+.pink-lighten-2 {
+  background-color: rgb(249.6666666667, 209.3333333333, 215.6666666667);
+}
+
+.pink-lighten-3 {
+  background-color: white;
+}
+
+.pink-lighten-4 {
+  background-color: hsl(350.5785123967, 79.0849673203%, 110%);
+}
+
+.pink-darken-1 {
+  background-color: rgb(233.6666666667, 72.3333333333, 97.6666666667);
+}
+
+.pink-darken-2 {
+  background-color: rgb(228.3333333333, 26.6666666667, 58.3333333333);
+}
+
+.pink-darken-3 {
+  background-color: rgb(182.6666666667, 21.3333333333, 46.6666666667);
+}
+
+.pink-darken-4 {
+  background-color: #891023;
+}
+
+.blue-base {
+  background-color: #32c2b9;
+}
+
+.blue-lighten-1 {
+  background-color: rgb(84.0573770492, 210.9426229508, 203.012295082);
+}
+
+.blue-lighten-2 {
+  background-color: rgb(124.606557377, 221.393442623, 215.3442622951);
+}
+
+.blue-lighten-3 {
+  background-color: rgb(165.1557377049, 231.8442622951, 227.6762295082);
+}
+
+.blue-lighten-4 {
+  background-color: rgb(205.7049180328, 242.2950819672, 240.0081967213);
+}
+
+.blue-darken-1 {
+  background-color: rgb(39.5491803279, 153.4508196721, 146.3319672131);
+}
+
+.blue-darken-2 {
+  background-color: rgb(29.0983606557, 112.9016393443, 107.6639344262);
+}
+
+.blue-darken-3 {
+  background-color: rgb(18.6475409836, 72.3524590164, 68.9959016393);
+}
+
+.blue-darken-4 {
+  background-color: rgb(8.1967213115, 31.8032786885, 30.3278688525);
+}
+
+/*# sourceMappingURL=colors-main.css.map */

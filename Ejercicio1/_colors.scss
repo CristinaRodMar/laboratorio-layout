@@ -1,0 +1,40 @@
+// _colors.scss
+@use 'sass:color';
+
+// Colores base
+$base-yellow: #f9e14b;
+$base-pink: #ef7689;
+$base-blue: #32c2b9;
+
+// Paleta amarilla
+$yellow-lighten-1: color.adjust($base-yellow, $lightness: 10%);
+$yellow-lighten-2: color.adjust($base-yellow, $lightness: 20%);
+$yellow-lighten-3: color.adjust($base-yellow, $lightness: 30%);
+$yellow-lighten-4: color.adjust($base-yellow, $lightness: 40%);
+
+$yellow-darken-1: color.adjust($base-yellow, $lightness: -10%);
+$yellow-darken-2: color.adjust($base-yellow, $lightness: -20%);
+$yellow-darken-3: color.adjust($base-yellow, $lightness: -30%);
+$yellow-darken-4: color.adjust($base-yellow, $lightness: -40%);
+
+// Paleta rosa
+$pink-lighten-1: color.adjust($base-pink, $lightness: 10%);
+$pink-lighten-2: color.adjust($base-pink, $lightness: 20%);
+$pink-lighten-3: color.adjust($base-pink, $lightness: 30%);
+$pink-lighten-4: color.adjust($base-pink, $lightness: 40%);
+
+$pink-darken-1: color.adjust($base-pink, $lightness: -10%);
+$pink-darken-2: color.adjust($base-pink, $lightness: -20%);
+$pink-darken-3: color.adjust($base-pink, $lightness: -30%);
+$pink-darken-4: color.adjust($base-pink, $lightness: -40%);
+
+// Paleta turquesa
+$blue-lighten-1: color.adjust($base-blue, $lightness: 10%);
+$blue-lighten-2: color.adjust($base-blue, $lightness: 20%);
+$blue-lighten-3: color.adjust($base-blue, $lightness: 30%);
+$blue-lighten-4: color.adjust($base-blue, $lightness: 40%);
+
+$blue-darken-1: color.adjust($base-blue, $lightness: -10%);
+$blue-darken-2: color.adjust($base-blue, $lightness: -20%);
+$blue-darken-3: color.adjust($base-blue, $lightness: -30%);
+$blue-darken-4: color.adjust($base-blue, $lightness: -40%);

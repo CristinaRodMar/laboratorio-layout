@@ -14,7 +14,7 @@ h1 {
     border-radius: 18px;
     margin: 20px auto;
     max-width: 1400px;
-    grid-template-columns: repeat(9, 1fr); // 9 columnas para 9 tonos
+    grid-template-columns: repeat(9, 1fr); 
 }
 
 // Clase base para cada caja de color
@@ -25,17 +25,19 @@ h1 {
     align-items: center;
     justify-content: center;
     position: relative;
+    border: 3px solid #000000; 
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
 }
 
 .box span {
-    background: rgba(255, 255, 255, 0.85);
     padding: 4px 8px;
     border-radius: 8px;
-    font-size: 9px;
-    backdrop-filter: blur(2px);
+    font-size: 15px; 
+    backdrop-filter: blur(4px);
     font-weight: 600;
     color: #333;
-    pointer-events: none;
+    background: rgba(255, 255, 255, 0.8); 
+    border: 1px solid rgba(0, 0, 0, 0.1); 
 }
 
 // === PALETA AMARILLA ===
